@@ -8,6 +8,7 @@ public class SkipList{
     private static final double PROMOTE_RATE = 0.5;
     private Node head,tail;
     private int maxLevel;
+    //
 
     public SkipList() {
         head = new Node(Integer.MIN_VALUE);
